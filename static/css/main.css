@@ -39,7 +39,7 @@ header {
 
 /* Left side (Text) */
 .section-content {
-  max-width: 50%;
+  max-width: 80%;
 }
 
 .section-content h2 {
@@ -59,7 +59,7 @@ header {
 }
 
 /* Button Styles */
-.btn-primary {
+.btnn-primary {
   background-color: #007BFF;
   color: white;
   border: none;
@@ -85,3 +85,74 @@ header {
   display: table;
   clear: both;
 }
+
+.container.signup-section {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-content h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #2196f3;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #2196f3;
+  padding: 8px 4px;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+}
+
+input:focus {
+  border-bottom-color: #0b74da;
+}
+
+.btn-primary {
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0b74da;
+}
+
+.error-m {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.section-map {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
